@@ -120,7 +120,7 @@ def main():
         try:
             choice = int(input("Enter[1-3]: "))
         except ValueError:
-            print("Invalid input! Please enter a number between 1 and 3.")
+            print("Invalid input! Please Enter a number between 1 and 3.")
             continue
         if choice == 1:
             create()
